@@ -30,7 +30,7 @@ void PrintArray(string[] array)
 }
 
 
-string [] text(string[] arrayText)
+string [] ThreeWordText(string[] arrayText)
 {
     int count = 0;
     for (int i = 0; i < arrayText.Length; i++)
@@ -53,6 +53,6 @@ string [] text(string[] arrayText)
         
 FillArrayConsoleWords(arrayText);
 PrintArray(arrayText);
-PrintArray(text(arrayText));   
+PrintArray(ThreeWordText(arrayText));   
 
 
